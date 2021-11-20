@@ -9,4 +9,4 @@ while i <= 10:
     while j <= 10:
         print(i, j)
         j = j + 1
-    i = i + 1
+    i = i + 1 + 1
