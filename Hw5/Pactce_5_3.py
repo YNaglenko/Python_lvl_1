@@ -1,7 +1,7 @@
 import random as rnd
 
 the_matrix = []
-tmp_list = []
+
 for r in range(5):
     row = []
     for c in range(5):
