@@ -24,9 +24,13 @@ j = 2
 while i <= 100:
     is_simple = 1
     j = 2
-    while j <= 100:
+    while j < i:
         if i % j == 0:
             is_simple = 0
-        j = j + 1
-    print(i)
+            break
+        else:
+            j = j + 1
+    if is_simple == 1:
+        print(i)
     i = i + 1
+
