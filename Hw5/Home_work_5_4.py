@@ -7,6 +7,7 @@
 # элементов этой матрицы.
 i = 1
 matrix = []
+total_sum = 0
 for r in range(4):
     row = []
     for columns in range(4):
@@ -16,5 +17,12 @@ for r in range(4):
 
 for element in matrix:
     print(element)
+
+for i in range(len(matrix)):
+    for j in range(len(matrix[i])):
+        total_sum = total_sum + matrix[i][j]
+print(total_sum)
+
+
 
 
