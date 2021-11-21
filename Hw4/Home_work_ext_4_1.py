@@ -8,12 +8,11 @@
 # **
 # *
 
-
-number = 5
+number = int(input('Enter height of figure'))
 i = 1
 multiply = 1
 while i != 0:
     print(i * '*')
     i = i + multiply
-    if i == 5:
+    if i == number:
         multiply = -1
