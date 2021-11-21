@@ -21,7 +21,7 @@ for element in matrix:
 for i in range(len(matrix)):
     for j in range(len(matrix[i])):
         total_sum = total_sum + matrix[i][j]
-print(total_sum)
+print('Total sum:', total_sum)
 
 
 
