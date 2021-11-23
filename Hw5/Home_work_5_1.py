@@ -4,4 +4,5 @@ sum_odd = 0
 for i in number_list:
     if i % 2 > 0:
         sum_odd = sum_odd + i
-print(sum_odd)
+print('List of numbers:', number_list)
+print('Total sum of the odd numbers:', sum_odd)
