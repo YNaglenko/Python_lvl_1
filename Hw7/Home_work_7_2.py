@@ -7,20 +7,23 @@ cat = {"name": "Soniya",
        "weight": 4.5,
        "colour": "grey",
        "Address": {
-           "city": "Kyiv",
-           "street": "Boryspilska",
-           "house": 14,
-           "flat": 44,
-           "phone": "380444568260",
-           "owner": "Yevgen N"
-       },
+                   "city": "Kyiv",
+                   "street": "Boryspilska",
+                   "house": 14,
+                   "flat": 44,
+                   "phone": "380444568260",
+                   "owner": "Yevgen N"
+                },
        "visitVetDate": {
-           "last": "2021-09-11",
-           "next": "2022-02-28"},
+                   "last": "2021-09-11",
+                   "next": "2022-02-28"
+                     },
        "vaccines": {
-           "Vacc_1": "Y",
-           "Vacc_2": "Y",
-           "Vacc_3": "No"
-       }
+                   "Vacc_1": "Y",
+                   "Vacc_2": "Y",
+                   "Vacc_3": "No"
+                    }
 
-       }
+}
+
+
