@@ -12,5 +12,5 @@ def search_index(i_list, n):
     return f_index
 
 
-lst = [45, 5, 18, 121, 134, 2, 44]
-print('Index is:', search_index(lst, 121))
+lst = [45, 5, 18, 121, 'apple', 2, 44]
+print('Index is:', search_index(lst, 'apples'))
