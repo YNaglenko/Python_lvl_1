@@ -10,5 +10,5 @@ def sum_odd_num(i_list):
 
 
 my_list = [1, 2, 4, 6, 3, 7]
-
-print(sum_odd_num(my_list))
+summa = sum_odd_num(my_list)
+print(summa)
