@@ -9,7 +9,7 @@ msg_error_txt = '\n'
 
 if not txt_name.isalpha():
     failed = failed + 1
-    msg_error_txt +=  'Name must not contain any digit\n'
+    msg_error_txt += 'Name must not contain any digit\n'
 
 if not txt_name[0].isupper():
     msg_error_txt += 'Name must begin with UPPER case letter\n'
