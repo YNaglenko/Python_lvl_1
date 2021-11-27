@@ -3,15 +3,17 @@
 # двузначных чисел: 9009 = 91 Ч 99. Найдите самый большой палиндром, полученный
 # умножением  двух  трехзначных  чисел.  Выведите  значение  этого  палиндрома  и  то,
 # произведением каких чисел он является.
-max_multi = 0
+max_multi = 0  # max добуток чисел, що є паліндромом
+max_i = 0  # max множник 1
+max_j = 0  # max_множник_2
 for i in range(100, 999):
-    for j in range(999, 100, -1):
-        if i == j:
+    for j in range(999, 100, -1):  # перебір елементів в циклі рухається на зустріч
+        if i == j:  # від перестановники множників добуток не змінний змінний, тому зупиняємо цикл
             break
         else:
             multiply = i * j
             str_number = str(multiply)
-            part_len = len(str_number) // 2
+            part_len = len(str_number) // 2 # частина для перевірки на паліндром
             if str_number[:part_len] == str_number[:part_len:-1]:
                 if max_multi < multiply:
                     max_multi = multiply
@@ -19,4 +21,3 @@ for i in range(100, 999):
                     max_j = j
 
 print(max_i, 'x', max_j, '=', max_multi)
-
