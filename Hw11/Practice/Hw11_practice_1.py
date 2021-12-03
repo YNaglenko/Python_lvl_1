@@ -19,4 +19,4 @@ def save_goods_to_file(good_l, file_addr):
         my_file.write(txt + '\n')
     my_file.close()
 
-save_goods_to_file(good_list,"good.csv")
+save_goods_to_file(good_list, "good.csv")
