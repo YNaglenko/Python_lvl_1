@@ -13,4 +13,4 @@ def draw_triangle(h, filler):
         print(filler * (i + 1))
 
 
-draw_triangle(h=10, filler='$')
+draw_triangle(h=10, filler='X')
