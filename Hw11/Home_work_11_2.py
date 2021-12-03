@@ -8,7 +8,10 @@ def search_letter_in_file(filepath, search):
         for letter in txt:
             if letter == search:
                 count = count + 1
+    file_txt.close()
     return count
 
 
 print(search_letter_in_file("search_for_letter.txt", "A"))
+
+
